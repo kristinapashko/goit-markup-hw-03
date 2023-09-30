@@ -96,7 +96,7 @@ body ul {
 
 .header-menu-link {
   font-weight: 400;
-  padding-top: 24px;
+  padding-top: 24px 0;
 
   color: #2e2f42;
 }
@@ -206,11 +206,12 @@ body ul {
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
   padding: 0;
-  overflow: hidden;
-  clip-path: polygon(0 0, 0 0, 0 0);
   white-space: nowrap;
-  border-width: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantage-section {
@@ -261,7 +262,7 @@ body ul {
 }
 
 .team-img {
-  margin-bottom: 32px;
+  margin-bottom: 32px 0;
 }
 
 .team-title {
@@ -277,10 +278,12 @@ body ul {
 
 .team-list-item {
   background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 24px * 3) / 4);
-  padding: 32px;
   text-align: center;
-  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 
 .team-name {
@@ -298,6 +301,7 @@ body ul {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 /* section3 */
@@ -310,7 +314,7 @@ body ul {
 }
 
 .portfolio-item {
-  border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list {
@@ -355,7 +359,6 @@ body ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-left: 16px;
-  padding-bottom: 32px;
 }
 
 /* section4 */
