@@ -92,11 +92,12 @@ body ul {
   line-height: 1.5;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-menu-link {
   font-weight: 400;
-  padding-top: 24px 0;
+  padding: 24px 0;
 
   color: #2e2f42;
 }
@@ -115,6 +116,9 @@ body ul {
 .address {
   display: flex;
   gap: 40px;
+}
+.addres-menu-item {
+  padding: 24px 0;
 }
 
 .address-link {
