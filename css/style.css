@@ -121,6 +121,7 @@ body ul {
 .address-link {
   display: flex;
   font-style: normal;
+  padding: 24px 0;
 }
 
 .address-menu-link {
