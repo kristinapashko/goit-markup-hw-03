@@ -131,6 +131,7 @@ body ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .address-menu-link:active {
@@ -261,10 +262,6 @@ body ul {
   gap: 24px;
 }
 
-.team-img {
-  margin-bottom: 32px 0;
-}
-
 .team-title {
   color: #2e2f42;
   text-align: center;
@@ -286,13 +283,17 @@ body ul {
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 
+.team-container {
+  padding: 32px 0;
+}
+
 .team-name {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   margin-bottom: 8px;
 }
 
