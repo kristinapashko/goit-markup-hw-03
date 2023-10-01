@@ -52,14 +52,12 @@ body ul {
 /* header */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  gap: 332px;
+  align-items: center;
 }
 
 .header-logo {
@@ -118,12 +116,12 @@ body ul {
   gap: 40px;
 }
 .addres-menu-item {
-  padding: 24px 0;
 }
 
 .address-link {
   display: flex;
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-menu-link {
@@ -225,6 +223,8 @@ body ul {
 
 .advantage-item {
   width: calc((100% - 24px * 3) / 4);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .advantage-list {
@@ -305,7 +305,8 @@ body ul {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* section3 */
@@ -353,7 +354,6 @@ body ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 
 .portfolio-text {
@@ -362,7 +362,8 @@ body ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* section4 */
@@ -404,5 +405,7 @@ body ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* footer */
